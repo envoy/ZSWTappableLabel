@@ -3,125 +3,149 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED657E2F236B8E4300E8F492 /* ZSWTappableLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = ED657E2D236B8E4300E8F492 /* ZSWTappableLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED657E3D236B8E8A00E8F492 /* ZSWTappableLabelTouchHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = ED657E36236B8E8A00E8F492 /* ZSWTappableLabelTouchHandling.h */; };
-		ED657E3E236B8E8A00E8F492 /* ZSWTappableLabelTappableRegionInfoImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = ED657E37236B8E8A00E8F492 /* ZSWTappableLabelTappableRegionInfoImpl.m */; };
-		ED657E3F236B8E8A00E8F492 /* ZSWTappableLabelAccessibilityActionLongPress.m in Sources */ = {isa = PBXBuildFile; fileRef = ED657E38236B8E8A00E8F492 /* ZSWTappableLabelAccessibilityActionLongPress.m */; };
-		ED657E40236B8E8A00E8F492 /* ZSWTappableLabelTouchHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = ED657E39236B8E8A00E8F492 /* ZSWTappableLabelTouchHandling.m */; };
-		ED657E41236B8E8A00E8F492 /* ZSWTappableLabelTappableRegionInfoImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = ED657E3A236B8E8A00E8F492 /* ZSWTappableLabelTappableRegionInfoImpl.h */; };
-		ED657E42236B8E8A00E8F492 /* ZSWTappableLabelAccessibilityActionLongPress.h in Headers */ = {isa = PBXBuildFile; fileRef = ED657E3B236B8E8A00E8F492 /* ZSWTappableLabelAccessibilityActionLongPress.h */; };
-		ED657E43236B8E8A00E8F492 /* ZSWTappableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED657E3C236B8E8A00E8F492 /* ZSWTappableLabel.m */; };
-		ED657E46236B8F4C00E8F492 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED657E45236B8F4C00E8F492 /* Foundation.framework */; };
-		ED657E48236B8F5100E8F492 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED657E47236B8F5100E8F492 /* UIKit.framework */; };
+		OBJ_33 /* ZSWTappableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ZSWTappableLabel.m */; };
+		OBJ_34 /* ZSWTappableLabelAccessibilityActionLongPress.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ZSWTappableLabelAccessibilityActionLongPress.m */; };
+		OBJ_35 /* ZSWTappableLabelAccessibilityElement.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ZSWTappableLabelAccessibilityElement.m */; };
+		OBJ_36 /* ZSWTappableLabelTappableRegionInfoImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ZSWTappableLabelTappableRegionInfoImpl.m */; };
+		OBJ_37 /* ZSWTappableLabelTouchHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* ZSWTappableLabelTouchHandling.m */; };
+		OBJ_39 /* ZSWTappableLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* ZSWTappableLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		OBJ_46 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED657E2A236B8E4200E8F492 /* ZSWTappableLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZSWTappableLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED657E2D236B8E4300E8F492 /* ZSWTappableLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSWTappableLabel.h; sourceTree = "<group>"; };
-		ED657E2E236B8E4300E8F492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED657E36236B8E8A00E8F492 /* ZSWTappableLabelTouchHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWTappableLabelTouchHandling.h; sourceTree = "<group>"; };
-		ED657E37236B8E8A00E8F492 /* ZSWTappableLabelTappableRegionInfoImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWTappableLabelTappableRegionInfoImpl.m; sourceTree = "<group>"; };
-		ED657E38236B8E8A00E8F492 /* ZSWTappableLabelAccessibilityActionLongPress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWTappableLabelAccessibilityActionLongPress.m; sourceTree = "<group>"; };
-		ED657E39236B8E8A00E8F492 /* ZSWTappableLabelTouchHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWTappableLabelTouchHandling.m; sourceTree = "<group>"; };
-		ED657E3A236B8E8A00E8F492 /* ZSWTappableLabelTappableRegionInfoImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWTappableLabelTappableRegionInfoImpl.h; sourceTree = "<group>"; };
-		ED657E3B236B8E8A00E8F492 /* ZSWTappableLabelAccessibilityActionLongPress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWTappableLabelAccessibilityActionLongPress.h; sourceTree = "<group>"; };
-		ED657E3C236B8E8A00E8F492 /* ZSWTappableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWTappableLabel.m; sourceTree = "<group>"; };
-		ED657E45236B8F4C00E8F492 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		ED657E47236B8F5100E8F492 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		OBJ_11 /* ZSWTappableLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSWTappableLabel.m; sourceTree = "<group>"; };
+		OBJ_12 /* ZSWTappableLabelAccessibilityActionLongPress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSWTappableLabelAccessibilityActionLongPress.m; sourceTree = "<group>"; };
+		OBJ_13 /* ZSWTappableLabelAccessibilityElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSWTappableLabelAccessibilityElement.m; sourceTree = "<group>"; };
+		OBJ_14 /* ZSWTappableLabelTappableRegionInfoImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSWTappableLabelTappableRegionInfoImpl.m; sourceTree = "<group>"; };
+		OBJ_15 /* ZSWTappableLabelTouchHandling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSWTappableLabelTouchHandling.m; sourceTree = "<group>"; };
+		OBJ_17 /* ZSWTappableLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSWTappableLabel.h; sourceTree = "<group>"; };
+		OBJ_24 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_25 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		OBJ_26 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_27 /* ZSWTappableLabel.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ZSWTappableLabel.podspec; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		"ZSWTappableLabel::ZSWTappableLabel::Product" /* ZSWTappableLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZSWTappableLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ED657E27236B8E4200E8F492 /* Frameworks */ = {
+		OBJ_40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				ED657E46236B8F4C00E8F492 /* Foundation.framework in Frameworks */,
-				ED657E48236B8F5100E8F492 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ED657E20236B8E4200E8F492 = {
+		OBJ_10 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				ED657E2C236B8E4300E8F492 /* ZSWTappableLabel */,
-				ED657E2B236B8E4300E8F492 /* Products */,
-				ED657E44236B8F4C00E8F492 /* Frameworks */,
+				OBJ_11 /* ZSWTappableLabel.m */,
+				OBJ_12 /* ZSWTappableLabelAccessibilityActionLongPress.m */,
+				OBJ_13 /* ZSWTappableLabelAccessibilityElement.m */,
+				OBJ_14 /* ZSWTappableLabelTappableRegionInfoImpl.m */,
+				OBJ_15 /* ZSWTappableLabelTouchHandling.m */,
 			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		ED657E2B236B8E4300E8F492 /* Products */ = {
+		OBJ_16 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				ED657E2A236B8E4200E8F492 /* ZSWTappableLabel.framework */,
+				OBJ_17 /* ZSWTappableLabel.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_18 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"ZSWTappableLabel::ZSWTappableLabel::Product" /* ZSWTappableLabel.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		ED657E2C236B8E4300E8F492 /* ZSWTappableLabel */ = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				ED657E35236B8E8A00E8F492 /* Private */,
-				ED657E3C236B8E8A00E8F492 /* ZSWTappableLabel.m */,
-				ED657E2D236B8E4300E8F492 /* ZSWTappableLabel.h */,
-				ED657E2E236B8E4300E8F492 /* Info.plist */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_18 /* Tests */,
+				OBJ_19 /* Products */,
+				OBJ_24 /* LICENSE */,
+				OBJ_25 /* CHANGELOG.md */,
+				OBJ_26 /* README.md */,
+				OBJ_27 /* ZSWTappableLabel.podspec */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* ZSWTappableLabel */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* ZSWTappableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Info.plist */,
+				OBJ_10 /* Sources */,
+				OBJ_16 /* include */,
 			);
 			path = ZSWTappableLabel;
-			sourceTree = "<group>";
-		};
-		ED657E35236B8E8A00E8F492 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				ED657E36236B8E8A00E8F492 /* ZSWTappableLabelTouchHandling.h */,
-				ED657E37236B8E8A00E8F492 /* ZSWTappableLabelTappableRegionInfoImpl.m */,
-				ED657E38236B8E8A00E8F492 /* ZSWTappableLabelAccessibilityActionLongPress.m */,
-				ED657E39236B8E8A00E8F492 /* ZSWTappableLabelTouchHandling.m */,
-				ED657E3A236B8E8A00E8F492 /* ZSWTappableLabelTappableRegionInfoImpl.h */,
-				ED657E3B236B8E8A00E8F492 /* ZSWTappableLabelAccessibilityActionLongPress.h */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-		ED657E44236B8F4C00E8F492 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ED657E47236B8F5100E8F492 /* UIKit.framework */,
-				ED657E45236B8F4C00E8F492 /* Foundation.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		ED657E25236B8E4200E8F492 /* Headers */ = {
+		OBJ_38 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				ED657E2F236B8E4300E8F492 /* ZSWTappableLabel.h in Headers */,
-				ED657E42236B8E8A00E8F492 /* ZSWTappableLabelAccessibilityActionLongPress.h in Headers */,
-				ED657E41236B8E8A00E8F492 /* ZSWTappableLabelTappableRegionInfoImpl.h in Headers */,
-				ED657E3D236B8E8A00E8F492 /* ZSWTappableLabelTouchHandling.h in Headers */,
+				OBJ_39 /* ZSWTappableLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		ED657E29236B8E4200E8F492 /* ZSWTappableLabel */ = {
+		"ZSWTappableLabel::SwiftPMPackageDescription" /* ZSWTappableLabelPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED657E32236B8E4300E8F492 /* Build configuration list for PBXNativeTarget "ZSWTappableLabel" */;
+			buildConfigurationList = OBJ_42 /* Build configuration list for PBXNativeTarget "ZSWTappableLabelPackageDescription" */;
 			buildPhases = (
-				ED657E25236B8E4200E8F492 /* Headers */,
-				ED657E26236B8E4200E8F492 /* Sources */,
-				ED657E27236B8E4200E8F492 /* Frameworks */,
-				ED657E28236B8E4200E8F492 /* Resources */,
+				OBJ_45 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSWTappableLabelPackageDescription;
+			productName = ZSWTappableLabelPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"ZSWTappableLabel::ZSWTappableLabel" /* ZSWTappableLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_29 /* Build configuration list for PBXNativeTarget "ZSWTappableLabel" */;
+			buildPhases = (
+				OBJ_32 /* Sources */,
+				OBJ_38 /* Headers */,
+				OBJ_40 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,251 +153,224 @@
 			);
 			name = ZSWTappableLabel;
 			productName = ZSWTappableLabel;
-			productReference = ED657E2A236B8E4200E8F492 /* ZSWTappableLabel.framework */;
+			productReference = "ZSWTappableLabel::ZSWTappableLabel::Product" /* ZSWTappableLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ED657E21236B8E4200E8F492 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1110;
-				TargetAttributes = {
-					ED657E29236B8E4200E8F492 = {
-						CreatedOnToolsVersion = 11.1;
-					};
-				};
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = ED657E24236B8E4200E8F492 /* Build configuration list for PBXProject "ZSWTappableLabel" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "ZSWTappableLabel" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = ED657E20236B8E4200E8F492;
-			productRefGroup = ED657E2B236B8E4300E8F492 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED657E29236B8E4200E8F492 /* ZSWTappableLabel */,
+				"ZSWTappableLabel::ZSWTappableLabel" /* ZSWTappableLabel */,
+				"ZSWTappableLabel::SwiftPMPackageDescription" /* ZSWTappableLabelPackageDescription */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		ED657E28236B8E4200E8F492 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
 			files = (
+				OBJ_33 /* ZSWTappableLabel.m in Sources */,
+				OBJ_34 /* ZSWTappableLabelAccessibilityActionLongPress.m in Sources */,
+				OBJ_35 /* ZSWTappableLabelAccessibilityElement.m in Sources */,
+				OBJ_36 /* ZSWTappableLabelTappableRegionInfoImpl.m in Sources */,
+				OBJ_37 /* ZSWTappableLabelTouchHandling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		ED657E26236B8E4200E8F492 /* Sources */ = {
+		OBJ_45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				ED657E3E236B8E8A00E8F492 /* ZSWTappableLabelTappableRegionInfoImpl.m in Sources */,
-				ED657E3F236B8E8A00E8F492 /* ZSWTappableLabelAccessibilityActionLongPress.m in Sources */,
-				ED657E43236B8E8A00E8F492 /* ZSWTappableLabel.m in Sources */,
-				ED657E40236B8E8A00E8F492 /* ZSWTappableLabelTouchHandling.m in Sources */,
+				OBJ_46 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ED657E30236B8E4300E8F492 /* Debug */ = {
+		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		ED657E31236B8E4300E8F492 /* Release */ = {
+		OBJ_30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/ZSWTappableLabel/include",
+				);
+				INFOPLIST_FILE = ZSWTappableLabel.xcodeproj/ZSWTappableLabel_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ZSWTappableLabel;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = ZSWTappableLabel;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/ZSWTappableLabel/include",
+				);
+				INFOPLIST_FILE = ZSWTappableLabel.xcodeproj/ZSWTappableLabel_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ZSWTappableLabel;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = ZSWTappableLabel;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		ED657E33236B8E4300E8F492 /* Debug */ = {
+		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ZSWTappableLabel/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"SWIFT_PACKAGE=1",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zacwest.ZSWTappableLabel;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		ED657E34236B8E4300E8F492 /* Release */ = {
+		OBJ_44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ZSWTappableLabel/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zacwest.ZSWTappableLabel;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED657E24236B8E4200E8F492 /* Build configuration list for PBXProject "ZSWTappableLabel" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "ZSWTappableLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED657E30236B8E4300E8F492 /* Debug */,
-				ED657E31236B8E4300E8F492 /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED657E32236B8E4300E8F492 /* Build configuration list for PBXNativeTarget "ZSWTappableLabel" */ = {
+		OBJ_29 /* Build configuration list for PBXNativeTarget "ZSWTappableLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED657E33236B8E4300E8F492 /* Debug */,
-				ED657E34236B8E4300E8F492 /* Release */,
+				OBJ_30 /* Debug */,
+				OBJ_31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_42 /* Build configuration list for PBXNativeTarget "ZSWTappableLabelPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_43 /* Debug */,
+				OBJ_44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ED657E21236B8E4200E8F492 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }

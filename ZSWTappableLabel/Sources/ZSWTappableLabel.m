@@ -8,11 +8,11 @@
 //  https://github.com/zacwest/ZSWTappableLabel
 //
 
-#import "ZSWTappableLabel.h"
-#import "Private/ZSWTappableLabelTappableRegionInfoImpl.h"
-#import "Private/ZSWTappableLabelAccessibilityElement.h"
-#import "Private/ZSWTappableLabelAccessibilityActionLongPress.h"
-#import "Private/ZSWTappableLabelTouchHandling.h"
+#import "../Include/ZSWTappableLabel.h"
+#import "ZSWTappableLabelTappableRegionInfoImpl.h"
+#import "ZSWTappableLabelAccessibilityElement.h"
+#import "ZSWTappableLabelAccessibilityActionLongPress.h"
+#import "ZSWTappableLabelTouchHandling.h"
 
 #pragma mark -
 
